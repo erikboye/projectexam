@@ -1,7 +1,6 @@
 .homecard_container {
     display: flex;
     margin: auto;
-    background-color: rgba(175, 71, 71, 0.945);
     height: 90rem;
     width: 80%;
 }
