@@ -3,5 +3,16 @@
     margin: auto;
     height: 90rem;
     width: 80%;
+    background-color: rgba(207, 188, 188, 0.925);
 }
 
+.fp_pic_container {
+    display: flex;
+    border: 2px solid hotpink;
+    width: 100%;
+}
+
+.frontpage_pic {
+    display: flex;
+    margin: auto;
+}
