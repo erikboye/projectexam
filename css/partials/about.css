@@ -1,0 +1,45 @@
+.hero_banner {
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    height: 400px;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #DCCCBC;
+    margin-bottom: 50px;
+}
+
+.hi_text {
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.about_container {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2.5rem;
+    margin-bottom: 13rem;
+}
+
+.about_erik {
+    margin: auto;
+    text-align: center;
+}
+
+.bill_container {
+    display: flex;
+    width: 100%;
+}
+
+.bottom_container {
+    display: inline-block;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text_eriko {
+    font-weight: bold;
+}

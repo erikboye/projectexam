@@ -1,18 +1,42 @@
-.homecard_container {
-    display: flex;
-    margin: auto;
-    height: 90rem;
-    width: 80%;
-    background-color: rgba(207, 188, 188, 0.925);
-}
-
 .fp_pic_container {
-    display: flex;
-    border: 2px solid hotpink;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    height: 75rem;
+    background-image: url(/img/rsz_windowgirl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .frontpage_pic {
-    display: flex;
+    width: 100%;
     margin: auto;
 }
+
+.top_contianer {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.top_text {
+    margin: 70px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.9rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0) ;
+}
+
+
+.fp_text_container {
+    font-family: 'Quicksand', sans-serif;
+    width: 30%;
+    margin: auto;
+    margin-top: 4REM;
+    text-decoration: underline 2px;
+}
+
+.fp_h1 {
+    text-align: center;
+}
+
