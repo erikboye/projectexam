@@ -10,7 +10,7 @@ function reinitSlickBlogs() {
         });
 }
 
-async function getPost(id) {
+async function getBlogs(id) {
     console.log(id);
     console.log(id_map[id]);
     try {
@@ -31,7 +31,7 @@ async function getPost(id) {
     }
 }
 
-async function getPosts() {
+async function getBlogs() {
     try {
     const response = await fetch(
             'https://api.erikboye.tech/wp-json/wp/v2/posts'
@@ -48,7 +48,7 @@ async function getPosts() {
             <div class="slide">
                 <img src="${value.better_featured_image.media_details.sizes.thumbnail.source_url}">
                 <div class="content">
-                    <h2>${value.title.rendered}</h2>
+                    <h2 class="value_title">${value.title.rendered}</h2>
                 </div>
             </div>
             `;
@@ -63,7 +63,7 @@ async function getPosts() {
             }
         });
         // Initialize blogpost section with the latest(0) entry
-        getPost(0);
+        getBlogs(0);
         reinitSlickBlogs();
 } catch (error) {
         //document.querySelector('.alert').innerHTML += showAlertTouser(
@@ -75,7 +75,7 @@ async function getPosts() {
     }
 }
     // Get blog posts for slider
-    getPosts();
+    getBlogs();
 
     $(document).on('ready', function() {
       $(".regular").slick({
@@ -98,6 +98,6 @@ async function getPosts() {
       // On before slide change, whenever slider is moved redraw current post selected
       $('.blogs').on('afterChange', function(event, slick, currentSlide){
         console.log(currentSlide);
-        getPost(currentSlide);
+        getBlogs(currentSlide);
       });
     });
