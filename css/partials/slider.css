@@ -1,17 +1,14 @@
-.slick-track {
-    display: flex;
-}
-
-.fp_h1 {
-    text-align: center;
+.value_title{
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .slider {
     width: 50%;
     margin: 100px auto;
 }
-
-.slick-slide {
+slick-slide {
   margin: 0px 20px;
 }
 
@@ -21,12 +18,11 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: rgb(32, 92, 20);
+  color: #a18b78;;
 }
 
-
 .slick-slide {
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out .9s;
   opacity: .2;
 }
 
@@ -36,42 +32,4 @@
 
 .slick-current {
   opacity: 1;
-}
-
-.blogpost {
-    margin: auto;
-}
-.blogpost > p {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 8px;
-}
-.blogpost > h1, .blogpost > h2 {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 16px;
-    background-color: #dd9658;
-    color: #fff;
-    border-radius: 8px;
-}
-.blogpost > h4 {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 16px;
-    background-color: #dd9658;
-    background: linear-gradient(45deg, #dd9658, transparent);
-    color: #fff;
-    border-radius: 4px;
-}
-
-.blogpost .wp-block-image img {
-  width: 100%;
-  height: auto;
-}
-
-.value_title{
-  font-family: 'Quicksand', sans-serif;
 }

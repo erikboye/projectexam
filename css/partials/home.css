@@ -13,6 +13,12 @@
     margin: auto;
 }
 
+.fp_h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
 .top_contianer {
     display: flex;
     width: 100%;
