@@ -15,21 +15,23 @@ details.forEach(element => {
 count++ 
 if(count % 2 === 0){
        document.querySelector(".wof__container").innerHTML+= `
-       <div class="wof__div">
-            <h2 class="post_title">${element.title.rendered}</h2>
-            <div class="wrap"></div>
-            <img src="${element.better_featured_image.media_details.sizes.medium.source_url}" class="wofpic"></img>
-            <div class="wofinfo">${element.excerpt.rendered}</div>
+        <div class="wof__div">
+          <h2 class="post_title">${element.title.rendered}</h2>
+            <div class="wrap">
+              <img src="${element.better_featured_image.media_details.sizes.medium.source_url}" class="wofpic"></img>
+              <div class="wofinfo">${element.content.rendered}</div>
+            </div>
         </div>
        `
 }
 else{
     document.querySelector(".wof__container").innerHTML+= `
     <div class="wof__div">
-        <h2 class="post_title">${element.title.rendered}</h2>
+      <h2 class="post_title">${element.title.rendered}</h2>
         <div class="wrap">
-        <div class="wofinfo">${element.excerpt.rendered}</div>
-        <img src="${element.better_featured_image.media_details.sizes.medium.source_url}" class="wofpic"></img>
+          <div class="wofinfo">${element.excerpt.rendered}</div>
+          <img src="${element.better_featured_image.media_details.sizes.medium.source_url}" class="wofpic"></img>
+        </div>
     </div>
     `
 }
