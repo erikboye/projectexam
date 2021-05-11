@@ -1,0 +1,25 @@
+.wof__container {
+    width: 70%;
+    margin: auto;
+}
+
+.wrap {
+    margin: auto;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.wofpic {
+    padding-bottom: 3rem;
+}
+
+.wofinfo {
+    width: 80%;
+    margin: auto;
+}
+
+.post_title {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
