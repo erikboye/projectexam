@@ -8,7 +8,6 @@ function exam_slider() {
         });
 }
 
-
 async function getPics() {
     try {
     const response = await fetch(

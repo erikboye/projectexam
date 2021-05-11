@@ -26,11 +26,13 @@
 }
 
 .top_text {
-    margin: 70px auto;
+    margin: auto;
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 3.9rem;
     font-weight: bold;
     color: rgb(0, 0, 0) ;
+    width: 50%;
 }
 
 
