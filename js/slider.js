@@ -4,7 +4,23 @@ function exam_slider() {
       infinite: true,
       centerMode: true,
       slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToScroll: 3,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            arrows: false,
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+          },
+        },
+      ]
     });
 }
 
@@ -22,7 +38,7 @@ const response = await fetch(
         <div class="slide">
             <img src="${value.better_featured_image.media_details.sizes.thumbnail.source_url}">
             <div class="h1undertitle">
-                <h1 class="value_title">${value.title.rendered}</h1>
+                <h3 class="value_title">${value.title.rendered}</h3>
             </div>
         </div>
         `;
