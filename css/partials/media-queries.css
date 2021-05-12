@@ -1,0 +1,13 @@
+    @media (max-width: 767px) {
+    
+      .wrap {
+        flex-direction: column;
+    }
+
+    .wofpic {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+    }
+  
+
