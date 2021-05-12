@@ -1,5 +1,9 @@
-.loading {
+.loading_div {
     width: 100%;
+}
+
+.loading {
+    width: 20%;
     margin: auto;
 }
 
@@ -31,6 +35,3 @@
     text-align: center;
     margin: auto;
 }
-
-/*HAMBRUGER*/
-
