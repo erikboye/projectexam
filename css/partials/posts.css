@@ -1,3 +1,15 @@
+.loading {
+    width: 100%;
+    margin: auto;
+}
+
+.wof__div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 3px solid #DCCCBC;
+}
+
+
 .wof__container {
     width: 100%;
     margin: auto;
@@ -7,20 +19,16 @@
     width: 70%;
     display: flex;
     margin: auto;
-}
-
-.wofpic {
-    padding-bottom: 4rem;
+    border-radius: 1rem;
 }
 
 .wofinfo {
     width: 80%;
     margin: auto;
-    
 }
 
 .post_title {
     width: 100%;
-    margin: auto;
     text-align: center;
+    margin: auto;
 }
