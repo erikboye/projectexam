@@ -54,7 +54,18 @@
 
 
 
+    /*ABOUT.HTML*/
+    .pic_of_bill {
+     width: 300px;
+    }
 
+    .hi_text {
+      font-size: 1.7rem;
+    }
+
+    .hero_banner {
+      height: 200px;
+    }
 
 
 
@@ -102,6 +113,19 @@
       font-size: 2rem;
   }
 
-  }
-  
 
+
+
+  /*FOOTER*/
+
+  .lorem_footer_text {
+    display: none;
+  }
+
+  .mobile_fot {
+    display: flex;
+    width: 50%;
+    text-align: center;
+  }
+
+  }

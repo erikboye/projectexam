@@ -31,5 +31,8 @@ footer {
 
  .abt-text {
   line-height: 2.5rem;
- 
  }
+
+ .mobile_fot {
+   display: none;
+  }
