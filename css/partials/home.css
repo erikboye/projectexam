@@ -25,17 +25,6 @@
     text-align: center;
 }
 
-.top_text {
-    margin: auto;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3.9rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0) ;
-    width: 50%;
-}
-
-
 .fp_text_container {
     font-family: 'Quicksand', sans-serif;
     width: 30%;

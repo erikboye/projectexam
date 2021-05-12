@@ -1,13 +1,95 @@
     @media (max-width: 767px) {
-    
-      .wrap {
-        flex-direction: column;
+
+
+
+      /*LOGO*/
+    .logo {
+      width: 70%;
+    }
+
+
+
+
+
+
+    /*INDEX.HTML*/
+    .fp_h2 {
+      font-size: small;
+      font-weight: normal;
+  }
+
+    .top_text {
+      font-size: 1.5rem;
+      width: 100%;
+  }
+
+ 
+
+
+
+
+
+
+     /*POSTS.HTML*/
+    .wrap {
+      flex-direction: column;
     }
 
     .wofpic {
       margin-top: 4rem;
       margin-bottom: 4rem;
     }
+
+
+
+
+
+
+
+    /*HAMBURGER-MENU*/
+    .header-nav {
+      display: none;
     }
+
+    .nav_hamburger {
+      display: flex;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+  }
+
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #DCCCBC;
+      transition: top 1s ease;
+      display: none;
+  }
+
+  nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+  }
+
+  nav .openMenu {
+      display: block;
+  }
+
+  nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(187, 165, 147);
+      font-size: 2rem;
+  }
+
+  }
   
 

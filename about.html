@@ -9,30 +9,44 @@
     <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 </head>
 
 <body>
 
-    <!--HEADER-->
-    <header>
-        <div class="header__container">
-            <div class="logo_container">
-                <div>
-                    <a href="index.html" ><img class="logo" src="img/rsz_exam_logo.png" alt="Logo"/></a>
-                </div>
-            </div>
+<!--HEADER-->
+<header>
+    <div class="header__container">
+        <div class="logo_container">
+                <a href="index.html" ><img class="logo" src="img/rsz_exam_logo.png" alt="Logo"/></a>
+        </div>
             <nav class="header-nav">
                 <ul class="nav-link">
-                  <li class="headerlist"><a href="index.html">HOME</a></li>
-                  <li class="headerlist"><a href="posts.html">POSTS</a></li>
-                  <li class="headerlist"><a href="about.html">ABOUT</a></li>
-                  <li class="headerlist"><a href="contact.html">CONTACT</a></li>
+                <li class="headerlist"><a href="index.html">HOME</a></li>
+                <li class="headerlist"><a href="posts.html">POSTS</a></li>
+                <li class="headerlist"><a href="about.html">ABOUT</a></li>
+                <li class="headerlist"><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
-    </header>              
+        <nav class="nav_hamburger">
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                    <li class="headerlist"><a class="burg-link" href="index.html">HOME</a></li>
+                    <li class="headerlist"><a class="burg-link" href="posts.html">POSTS</a></li>
+                    <li class="headerlist"><a class="burg-link" href="about.html">ABOUT</a></li>
+                    <li class="headerlist"><a class="burg-link" href="contact.html">CONTACT</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <!--MAIN-->
     <main>
@@ -75,5 +89,6 @@
             </div>
     </div>
   </footer>
+  <script src="/js/hamburger.js"></script>
 </body>
 </html>
