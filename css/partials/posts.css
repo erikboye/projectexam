@@ -35,3 +35,15 @@
     text-align: center;
     margin: auto;
 }
+
+.read_more_div {
+    margin-top: 10rem;
+    width: 100%;
+    text-align: center;
+}
+
+.read_more_text, .fa-chevron-down {
+    font-size: 2rem ;
+    font-weight: bolder;
+}
+

@@ -22,7 +22,7 @@ if(count % 2 === 0){
         <a href="details.html?id=${element.id}"><h2 class="post_title">${element.title.rendered}</h2>
             <div class="wrap">
               <img src="${element.better_featured_image.media_details.sizes.medium.source_url}" class="wofpic"></img>
-              <div class="wofinfo">${element.content.rendered}</div>
+              <div class="wofinfo">${element.excerpt.rendered}</div>
             </div>
         </a>
         </div>

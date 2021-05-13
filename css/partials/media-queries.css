@@ -1,11 +1,13 @@
     @media (max-width: 767px) {
 
 
-
       /*LOGO*/
     .logo {
       width: 70%;
     }
+
+
+
 
 
 
@@ -43,7 +45,6 @@
     /*SLIDER*/
     .slider {
       width: 100%;
-     
   }
 
 
@@ -69,6 +70,32 @@
 
 
 
+
+
+
+
+
+
+
+
+ /*DETAILS.HTML*/
+
+ .aligncenter img {
+  width: 200px;
+  height: 400px;
+  border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
     /*ABOUT.HTML*/
     .pic_of_bill {
      width: 300px;
@@ -85,6 +112,15 @@
     .about_erik {
      width: 100%;
   }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,6 +167,13 @@
       color: rgb(187, 165, 147);
       font-size: 2rem;
   }
+
+
+
+
+
+
+
 
 
 
