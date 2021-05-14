@@ -48,3 +48,10 @@ else{
 }
 getPosts();
 
+
+const readMoreButton = document.querySelector('.read_more_div'); 
+
+readMoreButton.onclick = function () {    
+  getPosts (apiwof + `?page=2`);   
+  readMoreButton.innerHTML = '';
+  };
