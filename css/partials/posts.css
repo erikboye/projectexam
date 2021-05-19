@@ -7,15 +7,24 @@
     margin: auto;
 }
 
+.our_headphones {
+        margin: auto;
+        text-align: center;
+        font-size: 4rem;
+}
+
 .wof__div {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 3px solid #DCCCBC;
+    border-radius: 0.9rem;
+    margin-top: 7rem;
 }
 
 .wof__container {
     width: 100%;
     margin: auto;
+    
 }
 
 .wrap {
@@ -51,4 +60,6 @@
     transition: 0.3s;
     transform: translateY(-7px);
     font-weight: bolder;
-  }
+}
+
+.wofpic:hover {opacity: 0.8;}

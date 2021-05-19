@@ -13,8 +13,12 @@
     margin: auto;
 }
 
+.top_text {
+   margin-top: 5rem;
+}
+
 .fp_h2 {
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }

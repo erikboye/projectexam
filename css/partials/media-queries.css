@@ -26,8 +26,7 @@
       width: 100%;
   }
 
-
-  .fp_pic_container {
+    .fp_pic_container {
       width: 80%;
       margin: auto;
       height: 30rem;
@@ -111,6 +110,7 @@
 
     .about_erik {
      width: 100%;
+     line-height: 1.7;
   }
 
 
