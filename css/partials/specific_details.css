@@ -20,3 +20,28 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+
+.blogOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    overflow: auto;
+}
+
+.modal_container {
+    width: 40%;
+    margin: auto;
+}
+
+.modalBig {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.wp-image-1 {
+    border-radius: 2rem;
+}

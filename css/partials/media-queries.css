@@ -7,24 +7,18 @@
     }
 
 
-
-
-
-
-
-
-
     /*INDEX.HTML*/
     .fp_h2 {
+      width: 100%;
       font-size: small;
       font-weight: normal;
-      line-height: 1.5rem;
-  }
+      line-height: 1.6rem;
+    }
 
     .top_text {
       font-size: 1.5rem;
       width: 100%;
-  }
+    }
 
     .fp_pic_container {
       width: 80%;
@@ -34,23 +28,14 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-  }
+    }
 
 
 
-
-
- 
     /*SLIDER*/
     .slider {
       width: 100%;
-  }
-
-
-
-
-
-
+    }
 
 
      /*POSTS.HTML*/
@@ -65,33 +50,26 @@
 
     .loading {
       width: 100%;
-  }
+    }
 
 
 
+    /*DETAILS.HTML*/
+    .aligncenter img {
+      width: 200px;
+      height: 400px;
+      border-radius: 1rem;
+    }
 
-
-
-
-
-
-
-
- /*DETAILS.HTML*/
-
- .aligncenter img {
-  width: 200px;
-  height: 400px;
-  border-radius: 1rem;
-}
-
-
-
-
-
-
-
-
+    .modal_container {
+      width: 90%;
+      margin: auto;
+    }
+    
+    .modalBig {
+        width: 100%;
+        margin-top: 10rem;
+    }
 
 
 
@@ -111,16 +89,7 @@
     .about_erik {
      width: 100%;
      line-height: 1.7;
-  }
-
-
-
-
-
-
-
-
-
+    }
 
 
 
@@ -134,7 +103,7 @@
       position: absolute;
       right: 30px;
       top: 30px;
-  }
+    }
 
     nav .mainMenu {
       height: 100vh;
@@ -149,45 +118,35 @@
       background: #DCCCBC;
       transition: top 1s ease;
       display: none;
-  }
+    }
 
-  nav .mainMenu .closeMenu {
-      display: block;
-      position: absolute;
-      top: 20px;
-      right: 20px;
-  }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
 
-  nav .openMenu {
-      display: block;
-  }
+    nav .openMenu {
+        display: block;
+    }
 
-  nav .mainMenu li a:hover {
-      background: none;
-      color: rgb(187, 165, 147);
-      font-size: 2rem;
-  }
-
-
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(187, 165, 147);
+        font-size: 2rem;
+    }
 
 
 
+    /*FOOTER*/
+    .lorem_footer_text {
+      display: none;
+    }
 
-
-
-
-
-
-  /*FOOTER*/
-
-  .lorem_footer_text {
-    display: none;
-  }
-
-  .mobile_fot {
-    display: flex;
-    width: 50%;
-    text-align: center;
-  }
-
-  }
+    .mobile_fot {
+      display: flex;
+      width: 50%;
+      text-align: center;
+    }
+    }
