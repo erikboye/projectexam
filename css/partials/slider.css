@@ -29,3 +29,7 @@
 .slick-current {
   opacity: 1;
 }
+
+.h3none {
+  display: none;
+}
