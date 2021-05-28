@@ -44,12 +44,18 @@
     }
 
     .wofpic {
-      margin-top: 4rem;
-      margin-bottom: 4rem;
+      border-radius: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     .loading {
       width: 100%;
+    }
+
+    .post_title {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
   
