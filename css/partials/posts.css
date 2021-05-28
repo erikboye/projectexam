@@ -64,3 +64,9 @@
 
 .wofpic:hover {opacity: 0.8;}
 
+
+.h1dn,
+.noh1,
+.noneh1 {
+    display: none;
+}
